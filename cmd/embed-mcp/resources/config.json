@@ -1,0 +1,25 @@
+{
+  "server": {
+    "name": "embed-mcp",
+    "version": "1.0.0",
+    "description": "Demonstrates Go embed directive with MCP"
+  },
+  "features": {
+    "prompts": {
+      "enabled": true,
+      "embed_count": 2
+    },
+    "resources": {
+      "enabled": true,
+      "supported_types": [".json", ".yaml", ".md", ".txt"]
+    }
+  },
+  "deployment": {
+    "type": "static",
+    "benefits": [
+      "Single binary deployment",
+      "No external file dependencies",
+      "Embedded at build time"
+    ]
+  }
+}
